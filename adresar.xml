@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Adresar>
+  <Osoba>
+    <PunoIme>
+      <Ime>Petar</Ime>
+      <SrednjeIme>Goran</SrednjeIme>
+      <Prezime>Petrovic</Prezime>
+      <Prezime>Milosevic</Prezime>
+    </PunoIme>
+    <DatumRodjenja>
+      <Dan>31</Dan>
+      <Mesec>1</Mesec>
+      <Godina>1998</Godina>
+    </DatumRodjenja>
+    <Adresa tip="stalna">Beranska 51b/3</Adresa>
+    <Email tip="privatni">petarpetrovic@gmail.com</Email>
+    <Email tip="sluzbeni">petarnrt1117@gmail.com</Email>
+  </Osoba>
+  <Osoba>
+    <PunoIme>
+      <Ime>Nikola</Ime>
+      <Prezime>Nikolic</Prezime>
+    </PunoIme>
+    <DatumRodjenja>
+      <Dan>15</Dan>
+      <Mesec>6</Mesec>
+      <Godina>1998</Godina>
+    </DatumRodjenja>
+    <Adresa>Kneginje Milice 26/26</Adresa>
+    <Email tip="privatni">nikolanikolic@gmail.com</Email>
+  </Osoba>
+</Adresar>
