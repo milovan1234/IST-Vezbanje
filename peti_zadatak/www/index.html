@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osobe</title>
+</head>
+<body>
+    <h2>Sve osobe</h2>
+    <a href="/sve-osobe">Pogledaj osobe</a>
+
+    <h2>Dodaj Osobu</h2>
+    <form action="/dodaj-osobu" method="POST">
+        Id: <input type="number" name="id"><br><br>
+        Ime: <input type="text" name="ime"><br><br>
+        Prezime: <input type="text" name="prezime"><br><br>
+        Adresa: <input type="text" name="adresa"><br><br>
+        <button type="submit">DODAJ OSOBU</button>
+    </form>
+
+
+    <h2>Postavi Adresu</h2>
+    <form action="/postavi-adresu" method="POST">
+        Id: <input type="number" name="id"><br><br>
+        Adresa: <input type="text" name="adresa"><br><br>
+        <button type="submit">POSTAVI ADRESU</button>
+    </form>
+
+
+    <h2>Obrisi Osobu</h2>
+    <form action="/obrisi-osobu" method="POST">
+        Id: <input type="number" name="id"><br><br>
+        <button type="submit">OBRISI OSOBU</button>
+    </form>
+</body>
+</html>
